@@ -31,7 +31,7 @@ function createNotice(req, res){
         name: req.body.name,
         description: req.body.description,
         form: req.body.form,
-        image: req.files
+        file: req.file
     }
 
 
